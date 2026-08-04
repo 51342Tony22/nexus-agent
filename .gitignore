@@ -1,0 +1,26 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local application state
+data/
+*.log
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+
+# Generated evaluation output (the case manifest remains versioned)
+evaluations/*_report.json

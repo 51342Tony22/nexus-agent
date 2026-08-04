@@ -1,0 +1,38 @@
+[
+  {
+    "case_id": "cot_distillation_foundation",
+    "paper": "1_CotBasic_FromLLM->LM_DIstill.pdf",
+    "question": "分析 1_CotBasic_FromLLM->LM_DIstill.pdf 中大模型如何向小模型传授 chain-of-thought，并说明实验数据集、主要结果、局限性及其与我的 FYP 的关系。",
+    "evaluation_goal": "基础 chain-of-thought distillation 论文分析"
+  },
+  {
+    "case_id": "socratic_cot",
+    "paper": "2_SocraticCot.pdf",
+    "question": "分析 2_SocraticCot.pdf 的研究问题和 Socratic 方法，说明它如何生成或蒸馏推理过程，并总结数据集、结果与局限性。",
+    "evaluation_goal": "Socratic CoT 方法分析"
+  },
+  {
+    "case_id": "distilling_step_by_step",
+    "paper": "3_Disitill_Stepbystep_multitask->Siglerationale.pdf",
+    "question": "分析 3_Disitill_Stepbystep_multitask->Siglerationale.pdf 中 rationale 与 multitask learning 的组合方式，以及它为何能让较小模型用更少数据学习。",
+    "evaluation_goal": "rationale multitask learning 方法分析"
+  },
+  {
+    "case_id": "symbolic_cot",
+    "paper": "4_SymblicCoT_Multi_rationales.pdf",
+    "question": "分析 4_SymblicCoT_Multi_rationales.pdf 中 symbolic chain-of-thought 和 multiple rationales 的设计，并总结其证据、结果和限制。",
+    "evaluation_goal": "symbolic CoT 与多 rationale 分析"
+  },
+  {
+    "case_id": "mcc_kd",
+    "paper": "5_MCC-KD_Mutiltationales_SameAnswer.pdf",
+    "question": "分析 5_MCC-KD_Mutiltationales_SameAnswer.pdf 中多条 rationale、一致答案与 bidirectional KL divergence 的作用，并说明其对 reasoning distillation FYP 的启发。",
+    "evaluation_goal": "MCC-KD 一致性蒸馏分析"
+  },
+  {
+    "case_id": "cot_factor_analysis",
+    "paper": "6_Anaylsis_Cot.pdf",
+    "question": "分析 6_Anaylsis_Cot.pdf 研究了哪些影响 chain-of-thought distillation 的关键因素，尤其说明 rationale quality、diversity、实验结果和局限性。",
+    "evaluation_goal": "CoT distillation 关键因素分析"
+  }
+]

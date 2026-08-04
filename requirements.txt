@@ -1,0 +1,9 @@
+openai
+python-dotenv
+pypdf
+rank-bm25
+faiss-cpu
+numpy
+sentence-transformers
+pydantic>=2,<3
+mcp>=2,<3

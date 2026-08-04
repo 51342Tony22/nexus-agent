@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "fyp-library": {
+      "command": "/absolute/path/to/FYP Research Mini Agent/.venv/bin/python",
+      "args": [
+        "/absolute/path/to/FYP Research Mini Agent/mcp_library_server.py"
+      ]
+    }
+  }
+}

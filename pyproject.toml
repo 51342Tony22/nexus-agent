@@ -1,0 +1,16 @@
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+extend-exclude = [
+    ".venv",
+    ".idea",
+    "data",
+]
+
+[tool.ruff.lint]
+# Begin with correctness-oriented rules. Style and typing can be tightened after
+# the existing learning code has a deliberate baseline migration.
+select = ["E4", "E7", "E9", "F"]
+
+[tool.bandit]
+exclude_dirs = [".venv", "tests"]
